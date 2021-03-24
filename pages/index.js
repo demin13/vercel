@@ -15,7 +15,7 @@ export default function Home() {
         <div>
         <form method="POST">
             <h3>Enter comma seperated numbers</h3>
-                <input type ="text" name="string" required>
+                <input type ="text" name="string" required/>
             <button type ="submit">Submit</button>
         </form>
         </div>
