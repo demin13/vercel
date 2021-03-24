@@ -7,12 +7,21 @@ export default function Home() {
       <Head>
         <title>ttt Round 1 Assignment</title>
       </Head>
-
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to the assignment of Shekhar Anand
         </h1>
-
+        <div>
+        <form action="/add" method="POST">
+          <fieldset>
+            <h3>Enter comma seperated numbers</h3>
+              <label>stringofnumbers</label>
+                <input type ="text" name="string" required>
+              <br><br>
+            <button type ="submit">Submit</button>
+          </fieldset>
+        </form>
+        </div>
       </main>
 
       <footer className={styles.footer}>
