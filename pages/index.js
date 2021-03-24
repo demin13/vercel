@@ -11,11 +11,11 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to the assignment of Shekhar Anand
         </h1>
+        <br>
         <div>
         <form method="POST">
             <h3>Enter comma seperated numbers</h3>
                 <input type ="text" name="string" required>
-              <br><br>
             <button type ="submit">Submit</button>
         </form>
         </div>
