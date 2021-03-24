@@ -12,14 +12,11 @@ export default function Home() {
           Welcome to the assignment of Shekhar Anand
         </h1>
         <div>
-        <form action="/add" method="POST">
-          <fieldset>
+        <form method="POST">
             <h3>Enter comma seperated numbers</h3>
-              <label>stringofnumbers</label>
                 <input type ="text" name="string" required>
               <br><br>
             <button type ="submit">Submit</button>
-          </fieldset>
         </form>
         </div>
       </main>
